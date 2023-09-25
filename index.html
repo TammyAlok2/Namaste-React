@@ -14,10 +14,20 @@
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script>
 
-    let heading = React.createElement("h1",{id:'hello'},"namaste everyone");
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(heading);
+    let heading = React.createElement("h1",{className:'alok'},"namaste everyone");
+   
     console.log(heading);
+    const heading2 = React.createElement("h2",{className:'muskan'},"namaste my love ");
+
+
+    const container = React.createElement(
+        "div",{
+            id:"container"
+        },
+        [heading,heading2]
+    )
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(container);
 </script>
 
 </body>
