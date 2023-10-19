@@ -1,9 +1,12 @@
 import react from 'react'
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 const app =()=>{
   return(
     <>
-    <h1>Hello World</h1>
+    <Navbar/>
+    <Footer/>
     </>
   )
 }

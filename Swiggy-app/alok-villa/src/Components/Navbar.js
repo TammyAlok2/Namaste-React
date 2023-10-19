@@ -1,13 +1,14 @@
 import React from 'react'
-
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div>
       <div className='nav-bar'>
         <nav>
             <div className='left-side'>
-                <img src='food-villa.jpg ' alt
-                ='hello' />
+                
+                <img src='https://foodvilla.no/src/img/logo.png ' alt
+                ='hello' height={100} />
                 
                 </div>
 
