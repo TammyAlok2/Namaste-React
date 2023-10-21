@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid black;
+    }
+    
+    .right-side{
+        display:inline-flex;
+        justify-content: space-around;
+    
+    }
+    .right-side ul {
+        display: flex;
+        flex-direction:row;
+        list-style-type:none;
+        gap:2rem;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+    .right-side ul a{
+        color:blue;
+        text-decoration: none;
+    }
+    .right-side ul a:hover{
+    color:red;
+    text-shadow:2px solid orange;
+    background:cream;
+    font-size:20px;
+    }

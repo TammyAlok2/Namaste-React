@@ -1,9 +1,9 @@
 import react from 'react'
-
+import Navbar from './Components/Navbar.js'
 const app =()=>{
   return(
     <>
-    <h1>Hello World</h1>
+    <Navbar/>
     </>
   )
 }
